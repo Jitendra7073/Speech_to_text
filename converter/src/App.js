@@ -26,9 +26,9 @@ const App = () => {
   return (
     <div className="container">
       <div className="heading">
-        <h3>Speech to Text Converter <span style={{ color: listening ? "green" : "red", fontSize:"10px", marginLeft:"5px" }}>
-          {listening ? "ON" : "OFF"}
-        </span></h3>
+        <h3 style={{ color: listening ? "green" : "red"}}>
+        <span style={{color:"#2f2f2f"}}>Speech to Text Converter : </span> {listening ? "ON" : "OFF"}
+        </h3>
       </div>
       
       <div className="tagline">
