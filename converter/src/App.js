@@ -6,6 +6,7 @@ import SpeechRecognition, {
 import useClipboard from "react-use-clipboard";
 
 const App = () => {
+  
   const {
     transcript,
     listening,
